@@ -36,3 +36,13 @@ Você vai perceber semelhanças entre a solução que vamos desenvolver aqui e a
 - Adicionais/Comodidades podem ter um impacto significativo, visto que temos muitos prédios e casas antigos no Rio de Janeiro
 
 Vamos descobrir o quanto esses fatores impactam e se temos outros fatores não tão intuitivos que são extremamente importantes.
+
+### Arquivos Explicação:
+
+- Solução Airbnb Rio.ipynb -> arquivo voltado a solução do problema e toda a análise dos dados, treinando modelos de IA RandomForest, LinearRegression e ExtraTrees para ver qual o melhor modelo para realizar as análises e se tornar executável para análises mais dinâmicas.
+
+- primeiros_registros.csv -> tabela de dados para análisar e checar em que fatores os preços são baseados.
+
+- dados.csv -> banco de dados já analisado e limpo para treinamento e teste das IAs.
+
+- Deploy Projeto Airbnb - Dicionarios Criados.ipynb e Deploy_Airbnb.py -> arquivos para criação de executável para deploy dos modelos de forma a deixa-los dinâmicos, colocando um modelo.joblib(IA treinada e testada) para fazer as análises no dia dia de uma pessoa comum.
